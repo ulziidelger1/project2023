@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ForProject\\Homework\\Homework\\Homework.csproj",
+      "projectUniqueName": "C:\\ForProject\\Homework\\project2023\\Homework\\Homework\\Homework.csproj",
       "projectName": "Homework",
-      "projectPath": "C:\\ForProject\\Homework\\Homework\\Homework.csproj",
+      "projectPath": "C:\\ForProject\\Homework\\project2023\\Homework\\Homework\\Homework.csproj",
       "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "C:\\ForProject\\Homework\\Homework\\obj\\",
+      "outputPath": "C:\\ForProject\\Homework\\project2023\\Homework\\Homework\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
