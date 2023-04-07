@@ -72,8 +72,9 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(233, 54);
             this.button2.TabIndex = 3;
-            this.button2.Text = "answer2";
+            this.button2.Text = "Right answer2";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -98,7 +99,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gold;
-            this.ClientSize = new System.Drawing.Size(916, 539);
+            this.ClientSize = new System.Drawing.Size(916, 554);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);

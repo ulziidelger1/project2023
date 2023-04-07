@@ -38,3 +38,4 @@ C:\ForProject\Homework\project2023\Homework\Homework\obj\Debug\net6.0-windows\re
 C:\ForProject\Homework\project2023\Homework\Homework\obj\Debug\net6.0-windows\Homework.pdb
 C:\ForProject\Homework\project2023\Homework\Homework\obj\Debug\net6.0-windows\Homework.genruntimeconfig.cache
 C:\ForProject\Homework\project2023\Homework\Homework\obj\Debug\net6.0-windows\ref\Homework.dll
+C:\ForProject\Homework\project2023\Homework\Homework\obj\Debug\net6.0-windows\Homework.Form4.resources
