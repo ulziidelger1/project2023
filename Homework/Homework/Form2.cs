@@ -30,5 +30,10 @@ namespace Homework
             form1.Show();
             this.Close();
         }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
