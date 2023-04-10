@@ -15,6 +15,8 @@ namespace Homework
         public Form4()
         {
             InitializeComponent();
+
+            timer1.Start();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -24,7 +26,7 @@ namespace Homework
             if(panel2.Width >= 800)
             {
                 timer1.Stop();
-                Form4 frm = new Form4();
+                Form3 frm = new Form3();
                 frm.Show();
                 this.Close();
             }
