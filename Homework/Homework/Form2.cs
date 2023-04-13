@@ -19,8 +19,8 @@ namespace Homework
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form4 form4 = new Form4();
-            form4.Show();
+            Form3 form3 = new Form3();
+            form3.Show();
             this.Close();
         }
 

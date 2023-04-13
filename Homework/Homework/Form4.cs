@@ -26,7 +26,7 @@ namespace Homework
             if(panel2.Width >= 800)
             {
                 timer1.Stop();
-                Form3 frm = new Form3();
+                Form2 frm = new Form2();
                 frm.Show();
                 this.Close();
             }

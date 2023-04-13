@@ -51,11 +51,11 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(256, 352);
+            this.label1.Location = new System.Drawing.Point(200, 347);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(382, 52);
+            this.label1.Size = new System.Drawing.Size(511, 67);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Question";
+            this.label1.Text = "Цэнхэр, шар өнгөний дундаас ямар өнгө гарах вэ?";
             // 
             // button1
             // 
@@ -74,7 +74,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(233, 54);
             this.button2.TabIndex = 3;
-            this.button2.Text = "Right answer2";
+            this.button2.Text = "Ногоон";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -111,7 +111,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form3";
-            this.Text = "Form3";
+            this.Text = "Монгол улсын";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
