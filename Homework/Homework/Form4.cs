@@ -21,7 +21,7 @@ namespace Homework
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            panel2.Width += 3;
+            panel2.Width += 5;
 
             if(panel2.Width >= 800)
             {
