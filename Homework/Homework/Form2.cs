@@ -49,5 +49,12 @@ namespace Homework
             from1.Show();
             this.Close();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Khuvsgul f2 = new Khuvsgul();
+            f2.Show();
+            this.Close();
+        }
     }
 }

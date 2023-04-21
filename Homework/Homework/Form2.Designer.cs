@@ -107,6 +107,7 @@
             button4.TabIndex = 3;
             button4.Text = "Хөвсгөл";
             button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // button5
             // 
