@@ -35,5 +35,12 @@ namespace Homework
         {
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            zavhan f1 = new zavhan();
+            f1.Show();
+            this.Close();
+        }
     }
 }
