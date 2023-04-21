@@ -42,5 +42,12 @@ namespace Homework
             f1.Show();
             this.Close();
         }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            DundGovi from1 = new DundGovi();
+            from1.Show();
+            this.Close();
+        }
     }
 }
