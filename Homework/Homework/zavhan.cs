@@ -475,6 +475,11 @@ namespace Homework
             btnTic9.BackColor = Color.White;
         }
 
+        private void btnTic5_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
         private void button11_Click(object sender, EventArgs e)
         {
             Form2 f1 = new Form2();

@@ -90,3 +90,5 @@ C:\Users\Acer\Documents\Ulsbyteel\project2023\Homework\Homework\obj\Debug\net6.0
 C:\Users\Acer\Documents\Ulsbyteel\project2023\Homework\Homework\obj\Debug\net6.0-windows\Homework.pdb
 C:\Users\Acer\Documents\Ulsbyteel\project2023\Homework\Homework\obj\Debug\net6.0-windows\Homework.genruntimeconfig.cache
 C:\Users\Acer\Documents\Ulsbyteel\project2023\Homework\Homework\obj\Debug\net6.0-windows\ref\Homework.dll
+C:\ForProject\Homework\project2023\Homework\Homework\obj\Debug\net6.0-windows\Homework.DundGovi.resources
+C:\ForProject\Homework\project2023\Homework\Homework\obj\Debug\net6.0-windows\Homework.Khuvsgul.resources

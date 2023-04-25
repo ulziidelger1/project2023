@@ -56,5 +56,12 @@ namespace Homework
             f2.Show();
             this.Close();
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            UmnuGovi form1 = new UmnuGovi();
+            form1.Show();
+            this.Close();
+        }
     }
 }
