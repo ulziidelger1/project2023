@@ -28,233 +28,241 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnTic1 = new System.Windows.Forms.Button();
-            this.btnTic2 = new System.Windows.Forms.Button();
-            this.btnTic3 = new System.Windows.Forms.Button();
-            this.btnTic4 = new System.Windows.Forms.Button();
-            this.btnTic5 = new System.Windows.Forms.Button();
-            this.btnTic6 = new System.Windows.Forms.Button();
-            this.btnTic7 = new System.Windows.Forms.Button();
-            this.btnTic8 = new System.Windows.Forms.Button();
-            this.btnTic9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.labelPlayerX = new System.Windows.Forms.Label();
-            this.labelPlayerO = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.SuspendLayout();
+            btnTic1 = new Button();
+            btnTic2 = new Button();
+            btnTic3 = new Button();
+            btnTic4 = new Button();
+            btnTic5 = new Button();
+            btnTic6 = new Button();
+            btnTic7 = new Button();
+            btnTic8 = new Button();
+            btnTic9 = new Button();
+            button10 = new Button();
+            button11 = new Button();
+            button12 = new Button();
+            label1 = new Label();
+            label2 = new Label();
+            labelPlayerX = new Label();
+            labelPlayerO = new Label();
+            panel1 = new Panel();
+            panel2 = new Panel();
+            panel1.SuspendLayout();
+            panel2.SuspendLayout();
+            SuspendLayout();
             // 
             // btnTic1
             // 
-            this.btnTic1.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnTic1.Location = new System.Drawing.Point(10, 5);
-            this.btnTic1.Name = "btnTic1";
-            this.btnTic1.Size = new System.Drawing.Size(127, 123);
-            this.btnTic1.TabIndex = 0;
-            this.btnTic1.UseVisualStyleBackColor = true;
+            btnTic1.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            btnTic1.Location = new Point(10, 5);
+            btnTic1.Name = "btnTic1";
+            btnTic1.Size = new Size(127, 123);
+            btnTic1.TabIndex = 0;
+            btnTic1.UseVisualStyleBackColor = true;
+            btnTic1.Click += btnTic1_Click;
             // 
             // btnTic2
             // 
-            this.btnTic2.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnTic2.Location = new System.Drawing.Point(143, 5);
-            this.btnTic2.Name = "btnTic2";
-            this.btnTic2.Size = new System.Drawing.Size(127, 123);
-            this.btnTic2.TabIndex = 1;
-            this.btnTic2.UseVisualStyleBackColor = true;
+            btnTic2.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            btnTic2.Location = new Point(143, 5);
+            btnTic2.Name = "btnTic2";
+            btnTic2.Size = new Size(127, 123);
+            btnTic2.TabIndex = 1;
+            btnTic2.UseVisualStyleBackColor = true;
+            btnTic2.Click += btnTic2_Click;
             // 
             // btnTic3
             // 
-            this.btnTic3.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnTic3.Location = new System.Drawing.Point(276, 5);
-            this.btnTic3.Name = "btnTic3";
-            this.btnTic3.Size = new System.Drawing.Size(127, 123);
-            this.btnTic3.TabIndex = 2;
-            this.btnTic3.UseVisualStyleBackColor = true;
+            btnTic3.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            btnTic3.Location = new Point(276, 5);
+            btnTic3.Name = "btnTic3";
+            btnTic3.Size = new Size(127, 123);
+            btnTic3.TabIndex = 2;
+            btnTic3.UseVisualStyleBackColor = true;
+            btnTic3.Click += btnTic3_Click;
             // 
             // btnTic4
             // 
-            this.btnTic4.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnTic4.Location = new System.Drawing.Point(10, 134);
-            this.btnTic4.Name = "btnTic4";
-            this.btnTic4.Size = new System.Drawing.Size(127, 123);
-            this.btnTic4.TabIndex = 3;
-            this.btnTic4.UseVisualStyleBackColor = true;
+            btnTic4.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            btnTic4.Location = new Point(10, 134);
+            btnTic4.Name = "btnTic4";
+            btnTic4.Size = new Size(127, 123);
+            btnTic4.TabIndex = 3;
+            btnTic4.UseVisualStyleBackColor = true;
+            btnTic4.Click += btnTic4_Click;
             // 
             // btnTic5
             // 
-            this.btnTic5.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnTic5.Location = new System.Drawing.Point(143, 134);
-            this.btnTic5.Name = "btnTic5";
-            this.btnTic5.Size = new System.Drawing.Size(127, 123);
-            this.btnTic5.TabIndex = 4;
-            this.btnTic5.UseVisualStyleBackColor = true;
-            this.btnTic5.Click += new System.EventHandler(this.btnTic5_Click_1);
+            btnTic5.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            btnTic5.Location = new Point(143, 134);
+            btnTic5.Name = "btnTic5";
+            btnTic5.Size = new Size(127, 123);
+            btnTic5.TabIndex = 4;
+            btnTic5.UseVisualStyleBackColor = true;
+            btnTic5.Click += btnTic5_Click;
             // 
             // btnTic6
             // 
-            this.btnTic6.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnTic6.Location = new System.Drawing.Point(276, 134);
-            this.btnTic6.Name = "btnTic6";
-            this.btnTic6.Size = new System.Drawing.Size(127, 123);
-            this.btnTic6.TabIndex = 5;
-            this.btnTic6.UseVisualStyleBackColor = true;
+            btnTic6.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            btnTic6.Location = new Point(276, 134);
+            btnTic6.Name = "btnTic6";
+            btnTic6.Size = new Size(127, 123);
+            btnTic6.TabIndex = 5;
+            btnTic6.UseVisualStyleBackColor = true;
+            btnTic6.Click += btnTic6_Click;
             // 
             // btnTic7
             // 
-            this.btnTic7.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnTic7.Location = new System.Drawing.Point(10, 263);
-            this.btnTic7.Name = "btnTic7";
-            this.btnTic7.Size = new System.Drawing.Size(127, 123);
-            this.btnTic7.TabIndex = 8;
-            this.btnTic7.UseVisualStyleBackColor = true;
+            btnTic7.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            btnTic7.Location = new Point(10, 263);
+            btnTic7.Name = "btnTic7";
+            btnTic7.Size = new Size(127, 123);
+            btnTic7.TabIndex = 8;
+            btnTic7.UseVisualStyleBackColor = true;
+            btnTic7.Click += btnTic7_Click;
             // 
             // btnTic8
             // 
-            this.btnTic8.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnTic8.Location = new System.Drawing.Point(143, 263);
-            this.btnTic8.Name = "btnTic8";
-            this.btnTic8.Size = new System.Drawing.Size(127, 123);
-            this.btnTic8.TabIndex = 7;
-            this.btnTic8.UseVisualStyleBackColor = true;
+            btnTic8.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            btnTic8.Location = new Point(143, 263);
+            btnTic8.Name = "btnTic8";
+            btnTic8.Size = new Size(127, 123);
+            btnTic8.TabIndex = 7;
+            btnTic8.UseVisualStyleBackColor = true;
+            btnTic8.Click += btnTic8_Click;
             // 
             // btnTic9
             // 
-            this.btnTic9.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnTic9.Location = new System.Drawing.Point(276, 263);
-            this.btnTic9.Name = "btnTic9";
-            this.btnTic9.Size = new System.Drawing.Size(127, 123);
-            this.btnTic9.TabIndex = 6;
-            this.btnTic9.UseVisualStyleBackColor = true;
+            btnTic9.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            btnTic9.Location = new Point(276, 263);
+            btnTic9.Name = "btnTic9";
+            btnTic9.Size = new Size(127, 123);
+            btnTic9.TabIndex = 6;
+            btnTic9.UseVisualStyleBackColor = true;
+            btnTic9.Click += btnTic9_Click;
             // 
             // button10
             // 
-            this.button10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button10.Location = new System.Drawing.Point(471, 199);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(272, 92);
-            this.button10.TabIndex = 9;
-            this.button10.Text = "Шинэ тоглоом";
-            this.button10.UseVisualStyleBackColor = true;
+            button10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button10.Location = new Point(471, 199);
+            button10.Name = "button10";
+            button10.Size = new Size(272, 92);
+            button10.TabIndex = 9;
+            button10.Text = "Шинэ тоглоом";
+            button10.UseVisualStyleBackColor = true;
+            button10.Click += button10_Click;
             // 
             // button11
             // 
-            this.button11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button11.Location = new System.Drawing.Point(471, 297);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(131, 92);
-            this.button11.TabIndex = 10;
-            this.button11.Text = "Гарах";
-            this.button11.UseVisualStyleBackColor = true;
+            button11.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button11.Location = new Point(471, 297);
+            button11.Name = "button11";
+            button11.Size = new Size(131, 92);
+            button11.TabIndex = 10;
+            button11.Text = "Гарах";
+            button11.UseVisualStyleBackColor = true;
+            button11.Click += button11_Click;
             // 
             // button12
             // 
-            this.button12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button12.Location = new System.Drawing.Point(612, 297);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(131, 92);
-            this.button12.TabIndex = 11;
-            this.button12.Text = "Дахин тоглох";
-            this.button12.UseVisualStyleBackColor = true;
+            button12.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button12.Location = new Point(612, 297);
+            button12.Name = "button12";
+            button12.Size = new Size(131, 92);
+            button12.TabIndex = 11;
+            button12.Text = "Дахин тоглох";
+            button12.UseVisualStyleBackColor = true;
+            button12.Click += button12_Click;
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(26, 21);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(160, 46);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "Тоглогч Х:";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            label1.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(26, 21);
+            label1.Name = "label1";
+            label1.Size = new Size(160, 46);
+            label1.TabIndex = 12;
+            label1.Text = "Тоглогч Х:";
+            label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(26, 73);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(160, 39);
-            this.label2.TabIndex = 13;
-            this.label2.Text = "Тоглогч О:";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            label2.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Location = new Point(26, 73);
+            label2.Name = "label2";
+            label2.Size = new Size(160, 39);
+            label2.TabIndex = 13;
+            label2.Text = "Тоглогч О:";
+            label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // labelPlayerX
             // 
-            this.labelPlayerX.BackColor = System.Drawing.Color.White;
-            this.labelPlayerX.Font = new System.Drawing.Font("Vivaldi", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.labelPlayerX.Location = new System.Drawing.Point(212, 21);
-            this.labelPlayerX.Name = "labelPlayerX";
-            this.labelPlayerX.Size = new System.Drawing.Size(50, 46);
-            this.labelPlayerX.TabIndex = 14;
-            this.labelPlayerX.Text = "0";
-            this.labelPlayerX.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            labelPlayerX.BackColor = Color.White;
+            labelPlayerX.Font = new Font("Vivaldi", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            labelPlayerX.Location = new Point(212, 21);
+            labelPlayerX.Name = "labelPlayerX";
+            labelPlayerX.Size = new Size(50, 46);
+            labelPlayerX.TabIndex = 14;
+            labelPlayerX.Text = "0";
+            labelPlayerX.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // labelPlayerO
             // 
-            this.labelPlayerO.BackColor = System.Drawing.Color.White;
-            this.labelPlayerO.Font = new System.Drawing.Font("Vivaldi", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.labelPlayerO.Location = new System.Drawing.Point(212, 73);
-            this.labelPlayerO.Name = "labelPlayerO";
-            this.labelPlayerO.Size = new System.Drawing.Size(50, 39);
-            this.labelPlayerO.TabIndex = 15;
-            this.labelPlayerO.Text = "0";
-            this.labelPlayerO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            labelPlayerO.BackColor = Color.White;
+            labelPlayerO.Font = new Font("Vivaldi", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            labelPlayerO.Location = new Point(212, 73);
+            labelPlayerO.Name = "labelPlayerO";
+            labelPlayerO.Size = new Size(50, 39);
+            labelPlayerO.TabIndex = 15;
+            labelPlayerO.Text = "0";
+            labelPlayerO.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // panel1
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.btnTic7);
-            this.panel1.Controls.Add(this.btnTic8);
-            this.panel1.Controls.Add(this.btnTic9);
-            this.panel1.Controls.Add(this.btnTic6);
-            this.panel1.Controls.Add(this.btnTic5);
-            this.panel1.Controls.Add(this.btnTic4);
-            this.panel1.Controls.Add(this.btnTic3);
-            this.panel1.Controls.Add(this.btnTic2);
-            this.panel1.Controls.Add(this.btnTic1);
-            this.panel1.Location = new System.Drawing.Point(18, 34);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(412, 396);
-            this.panel1.TabIndex = 16;
+            panel1.BorderStyle = BorderStyle.Fixed3D;
+            panel1.Controls.Add(btnTic7);
+            panel1.Controls.Add(btnTic8);
+            panel1.Controls.Add(btnTic9);
+            panel1.Controls.Add(btnTic6);
+            panel1.Controls.Add(btnTic5);
+            panel1.Controls.Add(btnTic4);
+            panel1.Controls.Add(btnTic3);
+            panel1.Controls.Add(btnTic2);
+            panel1.Controls.Add(btnTic1);
+            panel1.Location = new Point(18, 34);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(412, 396);
+            panel1.TabIndex = 16;
             // 
             // panel2
             // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.labelPlayerO);
-            this.panel2.Controls.Add(this.labelPlayerX);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(465, 37);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(308, 127);
-            this.panel2.TabIndex = 17;
+            panel2.BorderStyle = BorderStyle.Fixed3D;
+            panel2.Controls.Add(labelPlayerO);
+            panel2.Controls.Add(labelPlayerX);
+            panel2.Controls.Add(label2);
+            panel2.Controls.Add(label1);
+            panel2.Location = new Point(465, 37);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(308, 127);
+            panel2.TabIndex = 17;
             // 
             // zavhan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
-            this.Name = "zavhan";
-            this.Text = "Завхан";
-            this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(192, 192, 255);
+            ClientSize = new Size(800, 450);
+            Controls.Add(panel2);
+            Controls.Add(panel1);
+            Controls.Add(button12);
+            Controls.Add(button11);
+            Controls.Add(button10);
+            Name = "zavhan";
+            Text = "Завхан";
+            panel1.ResumeLayout(false);
+            panel2.ResumeLayout(false);
+            ResumeLayout(false);
         }
 
         #endregion
-
-        private Button btnTic1;
         private Button btnTic2;
         private Button btnTic3;
         private Button btnTic4;
@@ -272,5 +280,6 @@
         private Label labelPlayerO;
         private Panel panel1;
         private Panel panel2;
+        private Button btnTic1;
     }
 }

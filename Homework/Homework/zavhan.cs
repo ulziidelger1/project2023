@@ -411,15 +411,15 @@ namespace Homework
         private void button10_Click(object sender, EventArgs e)
         {
             checker = false;
-            btnTic1.Text = "";
-            btnTic2.Text = "";
-            btnTic3.Text = "";
-            btnTic4.Text = "";
-            btnTic5.Text = "";
-            btnTic6.Text = "";
-            btnTic7.Text = "";
-            btnTic8.Text = "";
-            btnTic9.Text = "";
+            btnTic1.Text = " ";
+            btnTic2.Text = " ";
+            btnTic3.Text = " ";
+            btnTic4.Text = " ";
+            btnTic5.Text = " ";
+            btnTic6.Text = " ";
+            btnTic7.Text = " ";
+            btnTic8.Text = " ";
+            btnTic9.Text = " ";
             btnTic1.Enabled = true;
             btnTic2.Enabled = true;
             btnTic3.Enabled = true;
@@ -441,20 +441,22 @@ namespace Homework
 
             labelPlayerO.Text = "0";
             labelPlayerX.Text = "0";
+            o = 0;
+            x = 0;
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
             checker = false;
-            btnTic1.Text = "";
-            btnTic2.Text = "";
-            btnTic3.Text = "";
-            btnTic4.Text = "";
-            btnTic5.Text = "";
-            btnTic6.Text = "";
-            btnTic7.Text = "";
-            btnTic8.Text = "";
-            btnTic9.Text = "";
+            btnTic1.Text = " ";
+            btnTic2.Text = " ";
+            btnTic3.Text = " ";
+            btnTic4.Text = " ";
+            btnTic5.Text = " ";
+            btnTic6.Text = " ";
+            btnTic7.Text = " ";
+            btnTic8.Text = " ";
+            btnTic9.Text = " ";
             btnTic1.Enabled = true;
             btnTic2.Enabled = true;
             btnTic3.Enabled = true;
@@ -473,11 +475,6 @@ namespace Homework
             btnTic7.BackColor = Color.White;
             btnTic8.BackColor = Color.White;
             btnTic9.BackColor = Color.White;
-        }
-
-        private void btnTic5_Click_1(object sender, EventArgs e)
-        {
-
         }
 
         private void button11_Click(object sender, EventArgs e)
