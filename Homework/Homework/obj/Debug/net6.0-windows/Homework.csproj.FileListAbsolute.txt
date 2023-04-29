@@ -119,3 +119,6 @@ C:\Users\user\Documents\GitHub\project2023\Homework\Homework\obj\Debug\net6.0-wi
 C:\Users\user\Documents\GitHub\project2023\Homework\Homework\obj\Debug\net6.0-windows\Homework.pdb
 C:\Users\user\Documents\GitHub\project2023\Homework\Homework\obj\Debug\net6.0-windows\Homework.genruntimeconfig.cache
 C:\Users\user\Documents\GitHub\project2023\Homework\Homework\obj\Debug\net6.0-windows\ref\Homework.dll
+C:\Users\user\Documents\GitHub\project2023\Homework\Homework\obj\Debug\net6.0-windows\Homework.bayan_olgii.resources
+C:\Users\user\Documents\GitHub\project2023\Homework\Homework\obj\Debug\net6.0-windows\Homework.bayan_olgii2.resources
+C:\Users\user\Documents\GitHub\project2023\Homework\Homework\obj\Debug\net6.0-windows\Homework.bayan_olgii3.resources
