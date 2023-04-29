@@ -63,5 +63,12 @@ namespace Homework
             form1.Show();
             this.Close();
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            ovor_hangai form1 = new ovor_hangai();
+            form1.Show();
+            this.Close();
+        }
     }
 }

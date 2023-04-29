@@ -207,6 +207,7 @@
             button11.TabIndex = 10;
             button11.Text = " Өвөр хангай";
             button11.UseVisualStyleBackColor = false;
+            button11.Click += button11_Click;
             // 
             // button12
             // 
