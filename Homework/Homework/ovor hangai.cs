@@ -26,55 +26,12 @@ namespace Homework
             string d = textBox19.Text;
             if (h >= 451)
             {
-                if (d.Length == 6)
-                {
                     Random rand = new Random();
                     List<char> charList = new List<char> { d[1], d[2], d[0], d[3], d[4], d[5] };
                     int inde = rand.Next(charList.Count);
                     char randomCha = charList[inde];
                     textBox21.Text = randomCha.ToString();
-                }
-                else if (d.Length == 5)
-                {
-                    Random rand = new Random();
-                    List<char> charList = new List<char> { d[1], d[2], d[0], d[3], d[4] };
-                    int inde = rand.Next(charList.Count);
-                    char randomCha = charList[inde];
-                    textBox21.Text = randomCha.ToString();
-                }
-                else if (d.Length == 4)
-                {
-                    Random rand = new Random();
-                    List<char> charList = new List<char> { d[1], d[2], d[0], d[3] };
-                    int inde = rand.Next(charList.Count);
-                    char randomCha = charList[inde];
-                    textBox21.Text = randomCha.ToString();
-                }
-                else if (d.Length == 3)
-                {
-                    Random rand = new Random();
-                    List<char> charList = new List<char> { d[1], d[2], d[0] };
-                    int inde = rand.Next(charList.Count);
-                    char randomCha = charList[inde];
-                    textBox21.Text = randomCha.ToString();
-                }
-                else if (d.Length == 2)
-                {
-                    Random rand = new Random();
-                    List<char> charList = new List<char> { d[1], d[0] };
-                    int inde = rand.Next(charList.Count);
-                    char randomCha = charList[inde];
-                    textBox21.Text = randomCha.ToString();
-                }
-                else if (d.Length == 1)
-                {
-                    Random rand = new Random();
-                    List<char> charList = new List<char> { d[0] };
-                    int inde = rand.Next(charList.Count);
-                    char randomCha = charList[inde];
-                    textBox21.Text = randomCha.ToString();
-                }
-
+                
                 h = 167;
                 j = 222;
             }
@@ -130,13 +87,13 @@ namespace Homework
                 textBox21.BackColor = Color.Red;
             else if (label1.Text == "2")
                 textBox21.BackColor = Color.Orange;
-            else if (label1.Text == "3")
+            else if (label1.Text == "1")
                 textBox21.BackColor = Color.Yellow;
-            else if (label1.Text == "3")
+            else if (label1.Text == "0")
                 textBox21.BackColor = Color.Green;
-            else if (label1.Text == "3")
+            else if (label1.Text == "-1")
                 textBox21.BackColor = Color.Cyan;
-            else if (label1.Text == "3")
+            else if (label1.Text == "-2")
                 textBox21.BackColor = Color.Blue;
         }
 

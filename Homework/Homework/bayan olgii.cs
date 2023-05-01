@@ -159,7 +159,7 @@ namespace Homework
             }
             if (e.KeyCode == Keys.S)
             {
-                if (h - hp <= 75 && h - hp >= -75 && j - jp <= 75 && j - jp >= -75)
+                 if (h - hp <= 75 && h - hp >= -75 && j - jp <= 75 && j - jp >= -75)
                 {
                     int mn = Convert.ToInt32(textBox2.Text);
                     mn = mn - 5;
@@ -174,7 +174,7 @@ namespace Homework
                     }
 
                 }
-                else if (hp - h <= 75 && hp - h >= -75 && jp - j <= 0)
+                else if (hp - h <= 75 && hp - h >= -75 && jp - j <= 0 && jp-j>=-75)
                 {
 
                     for (int i = 0; i <= 218; i++)
